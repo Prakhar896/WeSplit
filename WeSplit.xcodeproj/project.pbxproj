@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E22F246B273C27520012288A /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F246A273C27520012288A /* WeSplitApp.swift */; };
-		E22F246D273C27520012288A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F246C273C27520012288A /* ContentView.swift */; };
 		E22F246F273C27620012288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22F246E273C27620012288A /* Assets.xcassets */; };
 		E22F2472273C27620012288A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22F2471273C27620012288A /* Preview Assets.xcassets */; };
 		E22F247C273C27630012288A /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F247B273C27630012288A /* WeSplitTests.swift */; };
 		E22F2486273C27630012288A /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F2485273C27630012288A /* WeSplitUITests.swift */; };
 		E22F2488273C27630012288A /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F2487273C27630012288A /* WeSplitUITestsLaunchTests.swift */; };
+		E2923460273C30C600BD10EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292345F273C30C600BD10EC /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E22F2467273C27520012288A /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22F246A273C27520012288A /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		E22F246C273C27520012288A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E22F246E273C27620012288A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22F2471273C27620012288A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E22F2477273C27630012288A /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		E22F2481273C27630012288A /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22F2485273C27630012288A /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
 		E22F2487273C27630012288A /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E292345F273C30C600BD10EC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E22F246A273C27520012288A /* WeSplitApp.swift */,
-				E22F246C273C27520012288A /* ContentView.swift */,
+				E292345F273C30C600BD10EC /* ContentView.swift */,
 				E22F246E273C27620012288A /* Assets.xcassets */,
 				E22F2470273C27620012288A /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22F246D273C27520012288A /* ContentView.swift in Sources */,
+				E2923460273C30C600BD10EC /* ContentView.swift in Sources */,
 				E22F246B273C27520012288A /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
